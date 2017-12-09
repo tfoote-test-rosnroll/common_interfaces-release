@@ -1,0 +1,12 @@
+Source: ros-ardent-actionlib-msgs
+Section: misc
+Priority: extra
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-ardent-ament-cmake, ros-ardent-ament-lint-common, ros-ardent-builtin-interfaces, ros-ardent-rosidl-default-generators, ros-ardent-std-msgs, ros-ardent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-ardent-actionlib-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-ardent-builtin-interfaces, ros-ardent-rosidl-default-runtime, ros-ardent-std-msgs, ros-ardent-ros-workspace
+Description: A package containing some message definitions used in the implementation or actions.
