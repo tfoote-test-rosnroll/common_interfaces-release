@@ -1,3 +1,38 @@
+## common_interfaces (eloquent) - 0.8.0-1
+
+The packages in the `common_interfaces` repository were released into the `eloquent` distro by running `/usr/bin/bloom-release --track eloquent --rosdistro eloquent common_interfaces` on `Thu, 26 Sep 2019 19:54:48 -0000`
+
+These packages were released:
+- `actionlib_msgs`
+- `common_interfaces`
+- `diagnostic_msgs`
+- `geometry_msgs`
+- `nav_msgs`
+- `sensor_msgs`
+- `shape_msgs`
+- `std_msgs`
+- `std_srvs`
+- `stereo_msgs`
+- `trajectory_msgs`
+- `visualization_msgs`
+
+Version of package(s) in repository `common_interfaces`:
+
+- upstream repository: https://github.com/ros2/common_interfaces.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.8.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.8.0`
+- catkin_pkg version: `0.4.13`
+- rosdep version: `0.16.1`
+- rosdistro version: `0.7.4`
+- vcstools version: `0.1.42`
+
+
 ## common_interfaces (dashing) - 0.7.0-1
 
 The packages in the `common_interfaces` repository were released into the `dashing` distro by running `/usr/bin/bloom-release -n -r dashing common_interfaces --override-release-repository-push-url git@github.com:ros2-gbp/common_interfaces-release` on `Sun, 14 Apr 2019 20:55:12 -0000`
