@@ -1,0 +1,12 @@
+Source: ros-verystable-common-interfaces
+Section: misc
+Priority: optional
+Maintainer: Scott K Logan <scott@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-common-interfaces
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-actionlib-msgs, ros-verystable-builtin-interfaces, ros-verystable-diagnostic-msgs, ros-verystable-geometry-msgs, ros-verystable-nav-msgs, ros-verystable-sensor-msgs, ros-verystable-shape-msgs, ros-verystable-std-msgs, ros-verystable-std-srvs, ros-verystable-stereo-msgs, ros-verystable-trajectory-msgs, ros-verystable-visualization-msgs, ros-verystable-ros-workspace
+Description: common_interfaces contains messages and services that are widely used by other ROS packages.
